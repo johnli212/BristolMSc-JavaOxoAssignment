@@ -1,0 +1,32 @@
+.root {
+    -fx-background-color: DimGray;
+}
+
+#board-tile {
+    -fx-font: 40pt "SanSerif";
+    -fx-font-weight: bold;
+    -fx-background-color: BlanchedAlmond;
+    -fx-alignment: center;
+    -fx-text-fill: DimGray;
+}
+
+#ui-label {
+    -fx-font: 15pt "SanSerif";
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-text-fill: LightGray;
+}
+
+#ui-player {
+    -fx-font: 25pt "SanSerif";
+    -fx-font-weight: bold;
+    -fx-background-color: Ivory;
+    -fx-text-fill: DimGray;
+    -fx-alignment: center;
+    -fx-label-padding: 0 20 0 20;
+}
+
+#grid-line {
+    -fx-stroke-width: 4;
+    -fx-stroke: BurlyWood;
+}
